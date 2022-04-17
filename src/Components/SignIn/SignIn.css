@@ -1,0 +1,21 @@
+.SignIn {
+  position: relative;
+  top: 80px;
+}
+.FormSignIn {
+  padding: 40px;
+}
+.RegisterLink {
+  margin-left: 5px;
+}
+
+@media screen and (min-width: 1000px) {
+  .FormSignIn > * :not(a) {
+    padding: 10px;
+  }
+}
+
+.margincenter {
+  margin-left: auto;
+  margin-right: auto;
+}

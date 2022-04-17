@@ -1,0 +1,28 @@
+.Display {
+  display: flex;
+  justify-content: center;
+}
+.Display-box {
+  min-height: 400px;
+  width: 100%;
+}
+.ImageCtn {
+  /* background-color: black; */
+  z-index: 100;
+  position: relative;
+}
+#Image {
+  z-index: 0;
+}
+
+.box {
+  border: solid 2px blueviolet;
+  position: absolute;
+  transform: rotate3d();
+  transition: all 0.8s ease;
+}
+@media screen and (min-width: 1000px) {
+  .Display-box {
+    padding: 0px 40px 40px 40px;
+  }
+}

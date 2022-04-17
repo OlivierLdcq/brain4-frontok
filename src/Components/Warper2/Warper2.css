@@ -1,0 +1,12 @@
+@media screen and (min-width: 1000px) {
+  .Warper2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 80px;
+  }
+  .Warper2 > * {
+    width: 500px;
+    /* background-color: black; */
+  }
+}
